@@ -55,6 +55,7 @@
 .gambar img{
     max-width: 312px; 
     height: 320px;
+    object-fit: cover;
 }
 
 
