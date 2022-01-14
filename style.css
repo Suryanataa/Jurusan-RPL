@@ -141,13 +141,11 @@
 		display: flex;
 	}
 }
-@media (min-width: 480px) {
+@media (min-width: 0px) {
 	.pad {
 		padding: 50px 50px;
 	}
-}
 
-@media (max-width: 480px) {
 	.navigation img {
 		margin-left: 40px;
 	}
@@ -161,7 +159,7 @@
 	}
 
 	.card {
-		width: 1rem;
+		width: 4rem;
 	}
 	.header img {
 		object-fit: cover;
@@ -181,6 +179,43 @@
 
 	.div2 {
 		width: 50%;
+	}
+}
+
+@media (max-width: 480px) {
+	.navigation img {
+		margin-left: 40px;
+	}
+
+	.header h1 {
+		font-size: 23px;
+	}
+
+	.kegiatan1 {
+		margin: 95px 30px;
+	}
+
+	.card {
+		width: 10rem;
+	}
+	.header img {
+		object-fit: cover;
+	}
+
+	.gambar img {
+		object-fit: cover;
+	}
+
+	.ya {
+		margin-right: 2px;
+	}
+
+	.div1 {
+		width: 100%;
+	}
+
+	.div2 {
+		width: 100%;
 	}
 }
 
